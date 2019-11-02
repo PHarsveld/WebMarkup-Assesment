@@ -1,0 +1,6 @@
+Student name:		Pip Harsveld
+Student number:		646038
+Student class:		Inf1C
+
+
+URL student GitHub repository:	https://github.com/PHarsveld/WebMarkup-Assessment
