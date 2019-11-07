@@ -45,3 +45,7 @@ li a:hover {
     padding: 0em 1em;
     border: solid .1em #F5F5F5;
 }
+
+.image {
+	width: 250px;
+}
