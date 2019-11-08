@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>Taekwondo Beverwijk - Home </title>
-		<meta name = "keywords" content="Taekwondo Beverwijk" />
-		<meta name = "description" content="Taekwondo Beverwijk" />
+		<meta name = "keywords" content="Beverwijk, Heemskerk, Velsen, Ijmond, Amsterdam, Haarlem, Sport, Taekwondo, Bazaar, Cineworld, Kennemer Theater" />
+		<meta name = "description" content=" " />
 		<meta name = "author" content="Pip Harsveld" />
 		
 		<link
@@ -16,9 +16,14 @@
 	</head>
 	
 	<body>
-		<section id="cookieStatement">
+		<video autoplay muted loop id="video">
+			<source src="video/Optie1.mp4" type="video/mp4">
+		</video>
+
+		<section id="cookie">
 			<p>Door deze site te gebruiken, gaat u akkoord met onze cookies</p>
 		</section>
+		
 		<header class="header">
 			<h1> Taekwondo Beverwijk </h1>
 			<h2> De leukste Taekwondo sportclub in Beverwijk en omstreken!</h2>
@@ -32,6 +37,9 @@
 			</nav>
 		</header>
 		
+		
+
+		<!-- Main -->
 		<article id="maincontent">
 			<header>
 				<h1> Main </h1>
@@ -54,16 +62,17 @@
 				</p>
 			</section>
 			<figure>
-				<img class="image" src="image/ZwarteMarkt.jpg" title="De Bazaar" alt="Afbeelding van groente en fruit op de markt">
+				<img class="image" src="img/ZwarteMarkt.jpg" title="De Bazaar" alt="Afbeelding van groente en fruit op de markt">
 			</figure>
 			<figure>
-				<img class="image" src="image/Restaurant.jpg" title="Restaurant" alt="Afbeelding van sfeervol restaurant met gedekte tafels">
+				<img class="image" src="img/Restaurant.jpg" title="Restaurant" alt="Afbeelding van sfeervol restaurant met gedekte tafels">
 			</figure>				
 			<footer>
 					?
 			</footer>
 		</article>
 		
+		<!-- Second -->
 		<article id="secondarycontent">
 			<header>
 				<h1> Secondary </h1>
@@ -98,6 +107,7 @@
 			</footer>
 		</article>
 		
+		<!-- Sport -->
 		<article id="sportcontent">
 			<header>
 				<h1> Sport </h1>
@@ -185,6 +195,7 @@
 			</footer>
 		</article>
 			
+		<!-- Referral -->
 		<article id="referalcontent">
 			<header>
 				<h1> Referral </h1>
@@ -216,28 +227,30 @@
 					?
 			</footer>
 		</article>	
-			
+				
+		<!-- Content -->
 		<article id="contactcontent">
 			<header>
 				<h1>Contact</h1>
 			</header>
 			<form method="post" target="_blank" action="http://witan.nl/inholland/testform.php">
 				<fieldset>
-					<legend>Naam:</legend>
+					<legend>Contact formulier:</legend>
+					<p>Naam: </p>
 					<input type="text" name="name">
-				</fieldset>
-				<fieldset>
-					<legend>Email:</legend>
-					<input type="text" name="email">
-				</fieldset>
-				<fieldset>
-					<legend>Vraag of opmerking:</legend>
-					<input type="text" name="message">
-				</fieldset>
+					<p>E-mail adres: </p>
+					<input type="email" name="email">
+					<p>Vraag of opmerking: </p> 
+					<input type="text" name="message" cols="70" rows="25">
+					<p>
+						&nbsp; &nbsp;
+					</p>
 					<input type="submit" value="Verstuur">
+				</fieldset>
 			</form>
 		</article>
-			
+		
+		<!-- Footer -->
 		<footer>
 			<p> &copy; Pip Harsveld | 2019 </p> 
 		</footer>   			
