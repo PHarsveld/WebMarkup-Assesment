@@ -8,6 +8,16 @@
   font-size: 20px;
 }
 
+body {
+	padding: 2em, 2em , 2em, 2em;
+	width: 1000px;
+	margin: auto;
+}
+
+section {
+	background: white;
+}
+
 /* Video */
 #video {
   position: fixed;
@@ -62,4 +72,8 @@ li a:hover {
 .image {
 	width: 250px;
 	float: right;
+}
+
+#messagebox {
+	height: 200px;
 }
