@@ -68,6 +68,7 @@ nav li a:hover {
     color: #444444;
     font-size:.7em;
     padding: 0em 1.5em;
+	margin:5px;
     border: solid 0.1em #444444;
 }
 
@@ -75,6 +76,8 @@ nav li a:hover {
 .image {
 	width: 250px;
 	float: right;
+	clear: both;
+	padding: 10px;
 }
 
 /* Opsommingen */
@@ -112,4 +115,5 @@ th {
 
 footer {
 	background-color: #F5F5F5F5;
+	clear: both;
 }
