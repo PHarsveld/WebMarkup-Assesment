@@ -3,7 +3,7 @@
   padding: 1px;
   margin: 1px;
   text-align: center;
-  background: #2699FB;
+  background: #2699FB; /* Blauw */
   color: 444444;
   font-size: 20px;
 }
@@ -75,12 +75,33 @@ nav li a:hover {
 	float: right;
 }
 
+/* Opsommingen */
 .opsomming {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 } 
 
+/* Tabel */
+table {
+  border-collapse: collapse;
+  width: 70%;
+}
+table, td {
+	border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #2699FB;
+  color: black;
+}
 
 /* Message contact form */
 #messagebox {
