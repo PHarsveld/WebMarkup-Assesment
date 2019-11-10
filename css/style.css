@@ -10,12 +10,59 @@
   color: 444444;
   font-size: 20px;
   padding: 0.5em 0em 0em 0em;
-  font-family: 'Raleway',Arial, Berlin Sans FB, sans-serif;
+  font-family: 'Raleway', 'Arial', 'Berlin Sans FB', sans-serif;
 }
+
+h1, h2 {
+	font-family: 'Raleway', 'Arial', 'Berlin Sans FB', sans-serif;
+}
+
+h3, h4, p, li, a, table, form, button{
+	font-family: 'Montserrat', 'Arial', 'Berlin Sans FB', sans-serif;
+}
+
+#titel {
+	font-size: 50px;
+}
+
+#subtitel {
+	font-size: 30px;	
+}
+
+#grotereTekst {
+	font-family: 'Montserrat', 'Arial', 'Berlin Sans FB', sans-serif;
+	font-size: 20px;
+}
+
+h1 {
+	font-size: 35px;
+	margin:  50px 0px 30px 0px;
+}
+
+h2 {
+	font-size: 30px;
+	margin:  20px 0px 20px 0px;
+}
+
+h3 {
+	font-size: 25px;
+	margin:  50px 0px 5px 0px;
+}
+
+h4 {
+	font-size: 20px;
+	margin:  30px 0px 5px 0px;
+}
+
+p {
+	font-size: 15px;
+}
+
+
 
 /* Body */
 body {
-	width: 1000px;
+	width: 1250px;
 	margin: auto;
 }
 
@@ -49,6 +96,7 @@ nav ul {
 
 nav li {
   float: left;
+  padding: auto;
 }
 
 nav li a {
@@ -62,15 +110,6 @@ nav li a {
 nav li a:hover {
   background-color: #2699FB;
 }
-
-/* H1 */
-H1 {
-	font-family: 'Raleway',Arial, sans-serif;
-}
-
-/* H2 */
-
-/* H3 */
 
 /* Button Bushido */
 #button {
@@ -86,7 +125,7 @@ H1 {
 /* Aside */
 aside {
 	float: right;
-	
+	display: inline-block;
 }
 
 /* Cookiestatement */
@@ -109,7 +148,7 @@ aside {
 	width: 200px;
 	float: right;
 	clear: both;
-	padding: 10px;
+	padding: 5px;
 }
 
 .imageMain {
@@ -129,6 +168,8 @@ aside {
 table {
   border-collapse: collapse;
   width: 70%;
+  font-size: 15px;
+  margin: 20px 0px 20px 0px;
 }
 table, td {
 	border: 1px solid #ddd;
