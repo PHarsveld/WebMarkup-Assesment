@@ -1,19 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway:400,600,700&display=swap');
+
+
 /* Header */ 
 .header {
-  padding: 1px;
-  margin: 1px;
+  padding: 0px;
+  margin: 0px;
   text-align: center;
   background: #2699FB; /* Blauw */
   color: 444444;
   font-size: 20px;
+  padding: 0.5em 0em 0em 0em;
+  font-family: 'Raleway',Arial, Berlin Sans FB, sans-serif;
 }
 
+/* Body */
 body {
-	padding: 2em, 2em , 2em, 2em;
 	width: 1000px;
 	margin: auto;
 }
 
+/* Achtergrond */
 section {
 	background: white;
 	padding: 0 em;
@@ -34,7 +40,7 @@ section {
 nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 0px;
   overflow: hidden;
   background-color: #707070;
   position: sticky;
@@ -47,7 +53,7 @@ nav li {
 
 nav li a {
   display: block;
-  color: white;
+  color: #FFFFFF;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -57,6 +63,31 @@ nav li a:hover {
   background-color: #2699FB;
 }
 
+/* H1 */
+H1 {
+	font-family: 'Raleway',Arial, sans-serif;
+}
+
+/* H2 */
+
+/* H3 */
+
+/* Button Bushido */
+#button {
+	background-color: #2699FB;
+	color: #000000;
+	padding: 15px 25px;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 0.5em;
+}
+
+/* Aside */
+aside {
+	float: right;
+	
+}
 
 /* Cookiestatement */
 #cookie {
@@ -70,13 +101,20 @@ nav li a:hover {
     padding: 0em 1.5em;
 	margin:5px;
     border: solid 0.1em #444444;
+	border-radius: 1em;
 }
 
 /* Afbeeldingen */
 .image {
-	width: 250px;
+	width: 200px;
 	float: right;
 	clear: both;
+	padding: 10px;
+}
+
+.imageMain {
+	height: 200px;
+	float: right;
 	padding: 10px;
 }
 
@@ -105,14 +143,16 @@ tr:nth-child(even){background-color: #F5F5F5}
 
 th {
   background-color: #2699FB;
+  background-color: #2699FB;
   color: black;
 }
 
-/* Message contact form */
+/* Contact formulier */
 #messagebox {
 	height: 200px;
 }
 
+/* Footer */
 footer {
 	background-color: #F5F5F5F5;
 	clear: both;
