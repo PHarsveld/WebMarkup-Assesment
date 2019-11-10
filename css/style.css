@@ -7,7 +7,7 @@
   margin: 0px;
   text-align: center;
   background: #2699FB; /* Blauw */
-  color: 444444;
+  color: #000000;
   font-size: 20px;
   padding: 0.5em 0em 0em 0em;
   font-family: 'Raleway', 'Arial', 'Berlin Sans FB', sans-serif;
@@ -58,8 +58,6 @@ p {
 	font-size: 15px;
 }
 
-
-
 /* Body */
 body {
 	width: 1250px;
@@ -69,7 +67,6 @@ body {
 /* Achtergrond */
 section {
 	background: white;
-	padding: 0 em;
 	margin: 2%;
 }
 
@@ -96,7 +93,6 @@ nav ul {
 
 nav li {
   float: left;
-  padding: auto;
 }
 
 nav li a {
@@ -191,6 +187,10 @@ th {
 /* Contact formulier */
 #messagebox {
 	height: 200px;
+}
+
+textaerea {
+	clear: both;
 }
 
 /* Footer */
